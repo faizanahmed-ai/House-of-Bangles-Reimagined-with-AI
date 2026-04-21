@@ -1,6 +1,6 @@
-import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
+const nextConfig = {
+
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'www.houseofbangles.store' },
@@ -45,4 +45,5 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default nextConfig
+module.exports = nextConfig
+
